@@ -7,7 +7,7 @@ This project predicts stock prices using a Long Short-Term Memory (LSTM) neural 
 - [Introduction](#introduction)
 - [CRISP-DM Phases](#crisp-dm-phases)
 - [Features](#features)
-- 
+
 ## Introduction
 Stock price prediction is a challenging task due to the volatile nature of the stock market. This project uses an LSTM model, which is well-suited for time series data, to predict the stock prices of Indofood (INDF.JK). The project is structured according to the **CRISP-DM** methodology, ensuring a systematic approach to data mining and machine learning.
 
