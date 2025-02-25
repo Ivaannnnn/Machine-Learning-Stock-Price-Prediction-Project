@@ -56,4 +56,3 @@ The project follows the six phases of the **CRISP-DM** methodology:
 - **Prediction**: Predicts stock prices for both training and testing datasets.
 - **Visualization**: Plots actual vs predicted stock prices.
 - **CRISP-DM Compliance**: Follows the CRISP-DM methodology for a structured approach.
-- 
