@@ -39,7 +39,6 @@ The project follows the six phases of the **CRISP-DM** methodology:
 - **Visualization**: The actual vs predicted stock prices are plotted to visually assess the model's accuracy.
 
 ### 6. Deployment
-- **Model Saving**: The trained model is saved as `lstm_stock_price_model.h5` for future use.
 - **Usage**: The model can be deployed in a production environment to provide real-time stock price predictions.
 
 ## Features
