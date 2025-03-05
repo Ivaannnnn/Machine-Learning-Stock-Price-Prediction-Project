@@ -19,7 +19,8 @@ In this project, we use the Long Short-Term Memory (LSTM) model, a type of recur
 - **Model Development :** An LSTM model is developed to predict stock prices using the training data.
 - **Model Evaluation :** The model's performance is evaluated by comparing predicted prices against actual prices, and visualizations are created to assess the accuracy of the predictions.
 - **Prediction :** The trained model is used to predict future stock prices, providing insight into the expected direction of the stock's price.
-CRISP-DM Methodology
+
+# CRISP-DM Methodology
 
 This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology, which is widely used for data science projects. The methodology ensures a structured and systematic approach to the project, which is broken down into the following six steps:
 
