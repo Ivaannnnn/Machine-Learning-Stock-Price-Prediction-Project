@@ -1,13 +1,13 @@
 # Machine-Learning-Stock-Price-Prediction-Project
-# 📈 Stock Price Prediction using LSTM (2-3 Years Forecast)
+# 📈 Stock Price Prediction using LSTM (3 Years Forecast)
 
-This project applies **Machine Learning (LSTM)** to predict stock prices for the next **2 or 3 years** using historical data. The approach follows the **CRISP-DM methodology**.
+This project applies **Machine Learning (LSTM)** to predict stock prices for the next **3 years** using historical data. The approach follows the **CRISP-DM methodology**.
 
 ---
 
 ## 🚀 **Project Overview**
 - 📊 Uses **Long Short-Term Memory (LSTM)**, a deep learning model for time-series forecasting.
-- 📈 **Predicts stock prices** for **2 or 3 years** ahead.
+- 📈 **Predicts stock prices** for **3 years** ahead.
 - 📅 **Data Source**: Yahoo Finance (`yfinance`).
 - 🔍 **Evaluation**: Compares actual vs. predicted prices.
 
@@ -37,7 +37,7 @@ Predict future stock prices to support investment decisions.
 - Plotted results using `matplotlib`.
 
 ### **6️⃣ Deployment**
-- Future predictions for **2 or 3 years**.
+- Future predictions for **3 years**.
 - **Outputs visualization** in a stock price chart.
 
 ---
