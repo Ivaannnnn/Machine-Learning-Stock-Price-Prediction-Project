@@ -1,43 +1,67 @@
-# Machine-Learning-Stock-Price-Prediction-Project
-# 📈 Stock Price Prediction using LSTM (3 Years Forecast)
+# Indofood Stock Price Prediction using LSTM
 
-This project applies **Machine Learning (LSTM)** to predict stock prices for the next **3 years** using historical data. The approach follows the **CRISP-DM methodology**.
+## 📌 Project Overview
 
----
+**This project aims to predict Indofood (INDF.JK) stock prices using a Long Short-Term Memory (LSTM) neural network. The dataset is retrieved from Yahoo Finance (yfinance), and predictions are made for the next 3 years based on historical data from 2015 to 2023.**
 
-## 🚀 **Project Overview**
-- 📊 Uses **Long Short-Term Memory (LSTM)**, a deep learning model for time-series forecasting.
-- 📈 **Predicts stock prices** for **3 years** ahead.
-- 📅 **Data Source**: Yahoo Finance (`yfinance`).
-- 🔍 **Evaluation**: Compares actual vs. predicted prices.
+## 📊 CRISP-DM Framework Implementation
 
----
+***This project follows the CRISP-DM methodology:***
 
-## 🔍 **CRISP-DM Methodology**
-### **1️⃣ Business Understanding**
-Predict future stock prices to support investment decisions.
+## 1️⃣ Business Understanding
 
-### **2️⃣ Data Understanding**
-- **Source**: Collected historical stock prices using `yfinance`.
-- **Columns Used**: Closing price (`Close`).
+**The goal is to forecast Indofood's stock price to help investors make informed decisions by analyzing historical trends.**
 
-### **3️⃣ Data Preparation**
-- Scaled data using `MinMaxScaler` for LSTM training.
-- Split data into **80% training** and **20% testing**.
-- Created sequences (time steps) to train the LSTM model.
+## 2️⃣ Data Understanding
 
-### **4️⃣ Modeling**
-- **Built an LSTM model** with:
-  - 2 LSTM layers
-  - Dense layers for output prediction
-- **Trained the model** using `Adam` optimizer and `Mean Squared Error (MSE)` loss function.
+**- Source: Yahoo Finance (yfinance)**
 
-### **5️⃣ Evaluation**
-- Compared **actual vs. predicted stock prices**.
-- Plotted results using `matplotlib`.
+**- Features: Closing Price of Indofood (INDF.JK)**
 
-### **6️⃣ Deployment**
-- Future predictions for **3 years**.
-- **Outputs visualization** in a stock price chart.
+**- Time Range: 2015 - 2023**
 
----
+## 3️⃣ Data Preparation
+
+**- Extract data using yfinance.**
+
+**- Normalize stock prices using MinMaxScaler.**
+
+**- Prepare data sequences (60-day time steps for predictions).**
+
+## 4️⃣ Modeling
+
+***Build an LSTM model with:***
+
+**- 2 LSTM layers**
+
+**- Dense layers for output**
+
+**- Adam optimizer with MSE loss function**
+
+**- Train the model using 80% training data & 20% testing data.**
+
+## 5️⃣ Evaluation
+
+***Evaluate predictions using:***
+
+**- Mean Absolute Error (MAE)**
+
+**- Mean Squared Error (MSE)**
+
+**- Root Mean Squared Error (RMSE)**
+
+**- R² Score**
+
+## 6️⃣ Deployment
+
+**- Generate future predictions (3 years ahead).**
+
+**- Visualize results using Matplotlib.**
+
+**- Store predictions in a structured DataFrame.**
+
+## 📈 Results & Visualization
+
+**- Comparison between actual and predicted stock prices.**
+
+**- Future trend predictions (2023 - 2026).**
